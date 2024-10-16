@@ -1,0 +1,122 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #5e7c9a, #334f68);
+    color: #fff;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Change color on hover */
+    text-decoration: underline; /* Optional: underline on hover */
+}
+
+h1 {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.project-item i {
+    font-size: 50px; /* Adjust icon size */
+    color: #f39c12; /* Icon color */
+    margin-bottom: 10px; /* Space below icons */
+}
+
+
+
+/* List Styles */
+.hero h2{
+    text-align: center;
+    margin-top: -10px;
+}
+.hero ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remo*/
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    flex: 1 1 30%; /* Flexible layout */
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.skill i {
+    font-size: 50px; /* Icon size */
+    margin-bottom: 10px;
+    color: #f39c12; /* Icon color */
+}
+
+.skill:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 32px; /* Adjusted icon size */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
